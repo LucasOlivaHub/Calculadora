@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inactive {
+    display: none;
+}
+
+body {
+    background-image: url("../imgs/maths.gif");
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(40, 62, 80, 0.8);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* calculadora */
+
+#calculator-container {
+    width: 70%;
+    height: 60%;
+    background-color: rgba(13, 25, 66, 0.849);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+}
+
+#calculator-container #calc-screen {
+    width: 100%;
+    height: 30%;
+    padding: 25px 15px 20px 15px;
+}
+
+#calculator-container #calc-screen #digitsContainer {
+    background-color: rgb(21, 27, 31);
+    padding: 25px 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#calculator-container #calc-screen p {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    color: #e9e9e9;
+    text-align: right;
+    max-width: 100%;
+}
+
+#calculator-container #calc-screen span { 
+    font-size: 2.2rem;
+}
+
+
+#calculator-container #calc-numpad {
+    height: 70%;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+}
+
+#calculator-container #calc-numpad button {
+    background-color: rgba(27, 61, 134, 0.829);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#calculator-container #calc-numpad button:hover {
+    background-color: rgba(255, 155, 72, 0.829);
+    transition: 800ms;
+}
+
+#calculator-container #calc-numpad #btnCero {
+    grid-column: 1/3;
+}
+
+#calculator-container #calc-numpad #btnIgual {
+    grid-row: 4/6;
+    grid-column: 4;
+}
+
+
+/* Desktop */
+
+@media screen and (min-width: 1080px) {
+    #calculator-container {
+        width: 40%;
+    } 
+}
+
+/* Tablet */
+
+@media screen and (min-width: 720px) {
+    #calculator-container {
+        width: 40%;
+    } 
+}

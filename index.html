@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <div id="calculator-container">
+            <div id="calc-screen">
+                <div id="digitsContainer">
+                    <p id="numeros" class="inactive"></p>
+                    <span id="resultado">0</span>
+                </div>    
+            </div>
+
+            <div id="calc-numpad">
+                <button style="color: rgb(27, 204, 10)" id="reiniciar">C</button>
+                <button style="color: rgb(27, 204, 10)" id="borrar"><</button>
+                <button style="color: rgb(201, 80, 238)" id="dividir" value="/" class="botones operaciones">/</button>
+                <button style="color: rgb(201, 80, 238)" id="multiplicar" value="*" class="botones operaciones">x</button>
+                <button class="botones" value="7">7</button>
+                <button class="botones" value="8">8</button>
+                <button class="botones" value="9">9</button>
+                <button style="color: rgb(201, 80, 238)" id="restar" value="-" class="botones operaciones">-</button>
+                <button class="botones" value="4">4</button>
+                <button class="botones" value="5">5</button>
+                <button class="botones" value="6">6</button>
+                <button style="color: rgb(201, 80, 238)" id="sumar" value="+" class="botones operaciones">+</button>
+                <button class="botones" value="1">1</button>
+                <button class="botones" value="2">2</button>
+                <button class="botones" value="3">3</button>
+                <button id="btnCero" class="botones" value="0">0</button>
+                <button id="coma" class="botones" value=".">.</button>
+                <button id="btnIgual" style="color: rgb(27, 204, 10)">=</button>
+            </div>
+
+
+        </div>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
