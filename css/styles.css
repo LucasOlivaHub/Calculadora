@@ -95,24 +95,11 @@ main {
 }
 
 
-/* Tablet */
-
-@media screen and (min-width: 720px) {
-    #calculator-container {
-        width: 60%;
-    }
-    
-    #calculator-container #calc-numpad {
-        gap: 5px;
-    }
-}
-}
-
 /* Desktop */
 
 @media screen and (min-width: 1000px) {
     #calculator-container {
-        width: 40%;
+        width: 60%;
     } 
 
     #calculator-container #calc-numpad {
@@ -122,4 +109,17 @@ main {
     #calculator-container #calc-numpad button {
         font-size: 1.5rem;
     }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 720px) {
+    #calculator-container {
+        width: 40%;
+    }
+    
+    #calculator-container #calc-numpad {
+        gap: 5px;
+    }
+}
 }
