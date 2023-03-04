@@ -4,6 +4,8 @@
 
 Un mini proyecto que me permitió seguir poniendo en práctica los conocimientos del manejo del DOM en JavaScript trabajando
 con la escucha de eventos y funciones.
+Además, también pude poner en práctica el concepto de Diseño Responsivo, de tal manera que la aplicación se adapta para
+celulares, para tablets (min-width: 720px) y para PCs (min-width: 1080px).
 
 
 Cambios a realizar:
