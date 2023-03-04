@@ -18,7 +18,7 @@ let numerosCalcArr;
 //Eventos:
 
 operaciones.forEach(operador => {
-    operador.addEventListener("click", (e) => {    
+    operador.addEventListener("click", (e) => {
         if(!isNaN(ultimoResultado)) {
             console.log(resultadoCalculadora.innerText)
             numerosCalculadora.innerText += ultimoResultado;
@@ -28,6 +28,7 @@ operaciones.forEach(operador => {
 
 btnsCalculadora.forEach(btn => {
     btn.addEventListener("click", (e) => {
+        ultimoResultado = "";
         botonPresionado = e.target
         numerosCalculadora.classList.remove("inactive");
         numerosCalculadora.innerText += botonPresionado.value;

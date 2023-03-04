@@ -95,18 +95,26 @@ main {
 }
 
 
-/* Desktop */
-
-@media screen and (min-width: 1080px) {
-    #calculator-container {
-        width: 40%;
-    } 
-}
-
 /* Tablet */
 
 @media screen and (min-width: 720px) {
     #calculator-container {
+        width: 60%;
+    } 
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1000px) {
+    #calculator-container {
         width: 40%;
     } 
+
+    #calculator-container #calc-numpad {
+        gap: 6px;
+    }
+
+    #calculator-container #calc-numpad button {
+        font-size: 1.5rem;
+    }
 }
