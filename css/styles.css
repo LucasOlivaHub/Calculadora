@@ -103,7 +103,7 @@ main {
     }
     
     #calculator-container #calc-numpad {
-        gap: 6px;
+        gap: 5px;
     }
 }
 }
