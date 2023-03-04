@@ -100,7 +100,12 @@ main {
 @media screen and (min-width: 720px) {
     #calculator-container {
         width: 60%;
-    } 
+    }
+    
+    #calculator-container #calc-numpad {
+        gap: 6px;
+    }
+}
 }
 
 /* Desktop */
