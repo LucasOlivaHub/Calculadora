@@ -15,10 +15,3 @@ operaciones. O también puedo optar por el boton " C " que borra todo lo escrito
 
 El boton " < " borra dígito por dígito lo que estuvimos escribiendo.
 
-Cambios a realizar:
-- Al hacer una cuenta, por ejemplo 2+2, si quiero volver a realizar una operación sin presionar la tecla de igual (" = "),
-debería mostrarse el resultado inmediatamente en el <span> con id "resultado". Es decir, la aplicación debería poder mostrar el
-resultado de las operaciones escritas hasta el momento (--si es que las hay--) al presionar un botón de operación ( +, -, /, *).
-  
-- Posibilidad de hacer cuentas escribiendo con el teclado de la PC o Celular, manteniendo la funcionalidad principal de presionar
-los botones.
